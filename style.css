@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#conetovo-smaranje{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+}
+#conetovo-smaranje img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.smaranje:last-child{
+    margin-top: 30px;
+}
+.smaranje button{
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    border: 3px solid blueviolet;
+    font-size: 20px;
+    font-weight: 600;
+    float: left;
+    position: absolute;
+}
+.smaranje button:last-child{
+    background-color: white;
+    color: blueviolet;
+}
+.smaranje button:first-child{
+    margin-left: -126.6px;
+    cursor: pointer;
+}
