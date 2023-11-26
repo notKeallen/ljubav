@@ -20,13 +20,15 @@
             function funkcija2(){
                 var slika = document.getElementById("slika");
                 slika.src = "download.jpg";
+                var sta = document.getElementById("nemoj");
+                nemoj.innerHTML = "";
             }
         </script>
 
         <div id="conetovo-smaranje">
             <div class="smaranje">
                 <img src="rock-one-eyebrow-raised-rock-staring.gif" alt="" id="slika"/>
-                <h1>Da li smaraš coneta?</h1>
+                <h1 id="nemoj">Da li smaraš coneta?</h1>
             </div>
             <div class="smaranje">
                     <button id="yesBtn" onclick="funkcija2()">Da</button>
