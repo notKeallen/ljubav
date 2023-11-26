@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Smaranje Coneta</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <script>
+            //onst smaranje = conetovoSmaranje.getBoundingClientRect();
+            //const smaranje2 = noBtn.getBoundingClientRect();
+            function funkcija(){
+                console.log("Blaaa")
+                const i = Math.floor(Math.random() * 1700) + 1;
+                const j = Math.floor(Math.random() * 1000) + 1;
+                var noBtn = document.getElementById("noBtn");
+                noBtn.style.left = i + 'px';
+                noBtn.style.top = j + 'px';
+            }
+            function funkcija2(){
+                var slika = document.getElementById("slika");
+                slika.src = "download.jpg";
+            }
+        </script>
+
+        <div id="conetovo-smaranje">
+            <div class="smaranje">
+                <img src="rock-one-eyebrow-raised-rock-staring.gif" alt="" id="slika"/>
+                <h1>Da li smaraš coneta?</h1>
+            </div>
+            <div class="smaranje">
+                    <button id="yesBtn" onclick="funkcija2()">Da</button>
+                    <button id="noBtn" onmouseover="funkcija()" cursor="pointer">Ne</button>
+            </div>
+        </div>
+
+
+    </body>
+</html>
